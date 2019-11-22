@@ -1,0 +1,12 @@
+#kkm5118
+#mult
+#mult2
+#10
+
+addi $3, $0, -2
+addi $4, $0, -5
+mult $4, $3
+mflo $2
+jr $0
+
+ 

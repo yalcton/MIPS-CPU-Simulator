@@ -1,0 +1,11 @@
+#kkm5118
+#multu
+#multu1
+#10
+
+addi $3, $0, 2
+addi $4, $0, 5
+multu $4, $3
+mflo $2
+jr $0
+ 

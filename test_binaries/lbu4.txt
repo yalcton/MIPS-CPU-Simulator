@@ -1,0 +1,10 @@
+#kkm5118
+#lbu
+#lbu4
+#245
+
+lui $3, 0x2000
+lbu $2, 7($3)
+jr $0
+
+#return exit code -11

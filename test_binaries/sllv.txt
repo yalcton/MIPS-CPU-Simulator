@@ -1,0 +1,12 @@
+#kkm5118
+#sllv
+#sllv1
+#248
+
+addi $3, $0, -2
+addi $4, $0, 2
+sllv $2, $4, $3
+jr $0
+
+#return -8
+

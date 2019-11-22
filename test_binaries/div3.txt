@@ -1,0 +1,13 @@
+#ccn18
+#div
+#div3
+#1
+
+addi $5, $0, 7
+addi $3, $0, 4
+div $5, $3
+ 
+mflo $2
+jr $0
+ 
+#testing non integer div

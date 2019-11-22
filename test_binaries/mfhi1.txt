@@ -1,0 +1,11 @@
+#kkm5118
+#mfhi
+#mfhi1
+#10
+
+addi $3, $0, 10
+mthi $3
+mfhi $2
+jr $0
+nop
+

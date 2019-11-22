@@ -1,0 +1,13 @@
+#ccn18
+#jalr
+#jalr2
+#12
+
+lui $5, 2
+addi $5, $5, 10
+jalr $2, $5
+nop
+nop
+nop
+jr $0
+ 

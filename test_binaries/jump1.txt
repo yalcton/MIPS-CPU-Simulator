@@ -1,0 +1,12 @@
+#ccn18
+#jump
+#jump1
+#4
+
+j jump
+addi $2, $2, 2
+jump: addi $2, $2, 2
+nop
+jr $0
+ 
+ 

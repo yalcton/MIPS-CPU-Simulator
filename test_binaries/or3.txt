@@ -1,0 +1,11 @@
+#ccn18
+#or
+#or3
+#4
+
+addiu $2, $0, 4
+addiu $1, $0, 2
+or $2, $1, $2
+jr $0
+
+#expected output is 4 

@@ -1,0 +1,11 @@
+#ccn18
+#subu
+#subu1
+#2
+
+addu $3,$3,7
+addu $2,$2,9
+
+subu $2,$2,$3
+jr $0
+

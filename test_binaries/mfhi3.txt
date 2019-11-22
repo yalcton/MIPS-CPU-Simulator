@@ -1,0 +1,15 @@
+#kkm5118
+#mfhi
+#mfhi3
+#36
+
+addi $4, $0, 6
+mult $4, $4
+nop
+mfhi $2
+mflo $3
+nop
+add $2, $2, $3
+jr $0
+
+ 

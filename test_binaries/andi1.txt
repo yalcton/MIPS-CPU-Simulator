@@ -1,0 +1,9 @@
+#ccn18
+#andi
+#andi1
+#2
+
+addi $3, $0, 1
+andi $2, $3, 3
+jr $0
+

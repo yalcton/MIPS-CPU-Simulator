@@ -1,0 +1,16 @@
+#ccn18
+#bgezal
+#bgezal4
+#35
+
+bgezal $0, jump_forward
+addi $2, $0, 15
+
+jump_back: addi $2, $2, 10
+nop
+jr $0
+
+jump_forward: addi $2, $2, 10
+bgezal $0, jump_back
+nop
+jr $0

@@ -1,0 +1,11 @@
+#ccn18
+#sllv
+#sllv1
+#24
+
+addiu $16, $16, 6
+addiu $17, $17, 2
+sllv $2, $16, $17
+jr $0
+
+#Expected: 24

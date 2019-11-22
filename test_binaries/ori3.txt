@@ -1,0 +1,9 @@
+#ccn18
+#ori
+#ori3
+#2
+
+addiu $16, $0, 2
+ori $2, $16, 2
+jr $0
+#expected value is 2.

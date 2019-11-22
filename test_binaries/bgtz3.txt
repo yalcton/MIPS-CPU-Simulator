@@ -1,0 +1,15 @@
+#ccn18
+#bgtz
+#bgtz3
+#15 
+
+addi $3, $0, -1
+bgtz $3, jump
+ 
+addi $2, $0, 15
+jr $0
+ 
+
+jump: addi $2, $0, 10
+jr $0
+

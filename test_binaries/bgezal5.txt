@@ -1,0 +1,11 @@
+#ccn18
+#bgezal
+#bgezal5
+#0
+
+bgezal $0, jump
+ 
+
+jump: add $2, $0, $20
+jr $0
+

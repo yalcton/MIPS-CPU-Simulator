@@ -1,0 +1,8 @@
+#ccn18
+#addiu
+#addiu1
+#40
+
+addiu $2, $2, 20
+addiu $2, $2, 20
+jr $0

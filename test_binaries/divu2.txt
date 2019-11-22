@@ -1,0 +1,16 @@
+#ccn18
+#divu
+#divu2
+#2
+
+addi $1, $0, 20
+addi $2, $0, 10
+
+divu $1, $2
+
+mfhi $1
+mflo $2
+add $2, $2, $1
+
+jr $0
+ 

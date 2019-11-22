@@ -1,0 +1,10 @@
+#kkm5118
+#mflo
+#mflo2
+#255
+
+addi $3, $0, -1
+mtlo $3
+mflo $2
+jr $0
+

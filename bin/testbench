@@ -1,0 +1,53 @@
+#!/bin/bash
+
+simPath=$1
+
+testPath="test_binaries"
+binPath="test_binaries"
+
+outPath="$testPath/output"
+srcFiles="$testPath/*.txt"
+binFiles="$testPath/*.bin"
+
+
+function mips_testbench()
+{
+
+for f in $srcFiles
+do
+  fileData=()
+	while IFS='' read -r line || [[ -n "$line" ]]; do
+      data="${line//#}"
+      fileData+=("$data")
+      #echo $data
+  done < $f
+
+  testID=${fileData[2]}
+  #echo "$testID"
+  testType=${fileData[1]}
+  #echo "$testType"
+  author=${fileData[0]}
+  #echo "$author"
+  status=${fileData[3]}
+  #echo "$status"
+
+    simout=$(echo $input | $simPath "$testPath/$testID.bin")
+    exit_code=$?
+
+    result="fail :("
+    if [ "$exit_code" = "$expected_output" ]; then
+      if [ "$simout" = "$expected_output_PUTC" ]; then
+          result="PASS!"
+      else
+        status+=" Simulator outputted '$simout', expected '$expected_output_PUTC'" >&2
+      fi
+    else
+      status+=" , received output $exit_code wanted $expected_output"
+    fi
+
+    PrintResult="${testID}, ${testType}, ${result}, ${author}, ${status}"
+    echo "$PrintResult"
+done
+}
+
+mips_testbench

@@ -1,0 +1,16 @@
+#ccn18
+#bltzal
+#bltzal3
+#8
+
+addi $1, $0, 1
+bltzal $1, jump
+addi $2, $2, 8
+jr $0
+ 
+
+jump: addi $2, $2, 6
+jr $ra
+ 
+
+# expected outcome = 8

@@ -1,0 +1,12 @@
+#ccn18
+#bgez
+#bgez1
+#20
+
+bgez $0, bgezjump
+addi $2, $0, 5
+jr $0
+
+bgezjump: addi $2, $0, 15
+jr $0
+

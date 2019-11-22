@@ -1,0 +1,12 @@
+#kkm5118
+#multu
+#multu2
+#127
+
+addi $3, $0, -1
+lui $4, 0x8000
+multu $4, $3
+mfhi $2
+srl $2, $2, 24
+jr $0
+

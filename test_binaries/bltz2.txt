@@ -1,0 +1,14 @@
+#ccn18
+#bltz
+#bltz2
+#6
+
+bltz $0, jump
+ 
+addi $2, $2, 6
+jr $0
+ 
+
+jump: addi $2, $2, 7
+jr $0
+ 

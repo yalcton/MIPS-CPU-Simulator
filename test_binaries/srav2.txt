@@ -1,0 +1,11 @@
+#ccn18
+#srav
+#srav2
+#15
+
+addiu $16, $16, 0xFFFF
+addiu $17, $17, 31
+srav $2, $16, $17
+jr $0
+
+ 

@@ -1,0 +1,14 @@
+#ccn18
+#bne
+#bne1
+#15 
+
+
+addi $4, $0, 10
+addi $5, $0, 10
+bne $4, $5, jump
+ 
+addi $2, $2, 7
+
+jump: addi $2, $2, 8
+jr $0

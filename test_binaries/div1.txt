@@ -1,0 +1,13 @@
+#ccn18
+#div
+#div1
+#5
+
+
+addi $1, $0, 10
+addi $2, $0, -2
+div $1, $2
+mflo $2
+jr $0
+
+

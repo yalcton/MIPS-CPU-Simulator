@@ -1,0 +1,10 @@
+#ccn18
+#slti
+#slti1
+#15
+
+addiu $16, $16, 0xFFFF
+sra $2, $16, 31
+jr $0
+
+ 

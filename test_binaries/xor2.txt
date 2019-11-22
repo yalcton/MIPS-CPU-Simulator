@@ -1,0 +1,9 @@
+#ccn18
+#xor
+#xor2
+#2
+
+addiu $3, $0, 1
+addiu $4, $0, 3
+xor $2, $3, $4
+jr $0

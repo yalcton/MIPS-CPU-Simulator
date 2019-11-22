@@ -1,0 +1,8 @@
+#ccn18
+#addu
+#addu1
+#5
+
+addi $4, $4, 5
+addu $2, $0, $4
+jr $0

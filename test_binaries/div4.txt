@@ -1,0 +1,12 @@
+#ccn18
+#div
+#div4
+#3
+
+addi $5, $0, 7
+addi $3, $0, 4
+div $5, $3
+ 
+mfhi $2
+jr $0
+ 

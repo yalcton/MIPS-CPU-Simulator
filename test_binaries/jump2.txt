@@ -1,0 +1,16 @@
+#ccn18
+#jump
+#jump2
+#7
+
+j jump_ahead
+addi $2, $2, 3
+
+jump_behind: addi $2, $2, 4
+nop
+jr $0
+  
+jump_ahead: j jump_behind
+nop
+jr $0
+ 

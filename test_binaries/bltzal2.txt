@@ -1,0 +1,15 @@
+#ccn18
+#bltzal
+#bltzal2
+#8
+
+addi $1, $0, 0
+bltzal $1, jump
+ 
+addi $2, $2, 8
+jr $0
+
+jump: addi $2, $2, 13
+nop
+jr $0
+ 

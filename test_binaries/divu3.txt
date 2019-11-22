@@ -1,0 +1,9 @@
+#ccn18
+#divu
+#divu3
+#-10
+
+divu $0, $0
+jr $0
+ 
+

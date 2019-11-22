@@ -1,0 +1,11 @@
+#ccn18
+#bne
+#bne1
+#12
+
+bne $0, $0, jump
+ 
+addi $2, $2, 6
+jump: addi $2, $2, 6
+jr $0
+ 

@@ -1,0 +1,13 @@
+#ccn18
+#bgezal
+#bgezal2
+#20
+
+addi $1, $0, 0
+bltzal $1, jump
+ 
+addi $2, $2, 20
+jr $0
+ 
+jump: addi $2, $2, 10
+jr $ra

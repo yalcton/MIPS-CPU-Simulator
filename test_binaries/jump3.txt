@@ -1,0 +1,11 @@
+#ccn18
+#jump
+#jump3
+#10
+
+j ahead
+addi $2, $0, 10
+ 
+ahead: jr $0
+ 
+ 

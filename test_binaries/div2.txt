@@ -1,0 +1,13 @@
+#ccn18
+#div
+#div2
+#0
+
+addi $1, $0, 10
+addi $2, $0, -2
+div $1, $2
+mfhi $2
+jr $0
+ 
+
+# the div should be 10/-5 and the remainder stored in hi

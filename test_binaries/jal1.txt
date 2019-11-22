@@ -1,0 +1,15 @@
+#ccn18
+#jal
+#jal1
+#30
+
+jal jump_ahead
+addi $2, $2, 10
+jr $0
+ 
+
+jump_ahead: addi $2, $2, 20
+jr $31
+ 
+jr $0
+ 

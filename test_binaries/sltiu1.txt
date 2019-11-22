@@ -1,0 +1,10 @@
+#ccn18
+#sltiu
+#sltiu1
+#0
+
+lui $18, 0xAAAA
+sltiu $2, $18, 55
+jr $0
+
+#Expected: 0

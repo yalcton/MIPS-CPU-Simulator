@@ -1,0 +1,9 @@
+#ccn18
+#sltiu
+#sltiu2
+#1
+addiu $18, $18, 70
+sltiu $2, $18, 140
+jr $0
+
+#expected 1

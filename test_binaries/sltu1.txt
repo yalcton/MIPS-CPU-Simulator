@@ -1,0 +1,10 @@
+#ccn18
+#sltu
+#sltu1
+#0
+
+lui $18, 0xAAAA
+addi $17, $17, 3
+sltu $2, $18, $17
+jr $0
+
