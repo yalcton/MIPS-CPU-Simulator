@@ -1377,7 +1377,7 @@ int main(int argc, char* argv[]){
         //std::cerr<<"Binary read in "<<std::bitset<32>() << std::endl;
 
     }
-    file.close();
+    file.close(); 
 
 
     while(true){
